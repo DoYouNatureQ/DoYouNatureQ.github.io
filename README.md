@@ -1,1 +1,0 @@
-# DoYouNatureQ.github.io
