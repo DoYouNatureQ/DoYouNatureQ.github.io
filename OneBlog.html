@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自然卷NatureQ的个人博客-在Unity中使用键盘控制UI</title>
+</head>
+
+<style type="text/css">
+    .All{
+        text-align: center;
+    }
+
+.Titile{
+    text-align: center;
+}
+
+.Return{
+    background-color: blanchedalmond;
+    float: left;
+    margin-top: 1%;
+    margin-left: 1%;
+    height: 25px;
+    width: 10%;
+    font-size: 20px;
+}
+
+.xiaoguo{
+    height: 200px;
+    width: 10%;
+}
+
+.Navigation{
+    height: 350px;
+    width: 20%;
+}
+
+.DaoHang{
+    height: 300px;
+    width: 20%;
+}
+
+.EventSystem{
+    height: 230px;
+    width: 40%;
+}
+
+.Paper{
+    text-align:center;
+}
+
+.EndReturn{
+    background-color: blanchedalmond;
+    margin-top: 1%;
+    margin-left: 1%;
+    height: 25px;
+    width: 10%;
+    font-size: 20px;
+}
+
+</style>
+
+<body class="All">
+    <div>
+        <a class="Return" href="Index.html" style="text-decoration: none;">Go Back</a>
+    </div>
+    <div>
+        <br>
+    </div>
+    <div class="Titile">
+        </button>
+        <h1>在Unity中使用键盘控制UI</h1>
+        <h3>By:自然卷NatureQ</h3>
+    </div>
+    <div>
+        <hr>
+    </div>
+    <div class="Paper">
+        <img class="xiaoguo" src="images/xiaoguo.gif"><p><b>效果预览</b></p>
+        <br>
+        <p>
+            <h2 style="color: black;">相关技术:<p style="color:blue;">Navigation,EventSystem</p></h2>
+        </p>
+        <hr>
+        <p>
+            <b>Navigation:</b>可被选中的组件中的 Navigation 属性 例如：Button
+            <br>
+            <br>
+            <img class="Navigation" src="images/Navigation.png">
+        </p>
+        
+        <p>
+            每一个Button及所有可被选中的UI都有Navigation(按键导航),被选中的UI可以通过键盘来进行UI选取操作。
+            <br>
+            导航有六种，五种unity默认导航，一种自定义导航:
+            <br>
+            <br>
+            <b>None:</b>无导航，不可通过键盘来切换选取的UI
+            <br>
+            <br>
+            <b>Everything:</b>没用过，应该和Automatic类似
+            <br>
+            <br>
+            <b>Horizontal:</b>水平导航，也就是X轴，只能水平方向导航
+            <br>
+            <br>
+            <b>Vertical:</b>垂直导航，也就是Y轴，只能垂直方向导航
+            <br>
+            <br>
+            <b>Automatic:</b>自动导航，由unity引擎自动生成导航路径
+            <br>
+            <br>
+            <b>Explicit:</b>自定义导航，可以自选各个方向导航到哪个UI
+            <br>
+            <br>
+            <br>
+            <img class="DaoHang" src="images/daohang.png">
+        </p>
+        <br>
+        <br>
+        <p>
+            <b>EventSystem:</b>EventSystem中含有多种关于被选中UI的API，同时也可以在EventSystem中设置进入场景时第一个被选中的UI
+            <br>
+            <br>
+            <img class="EventSystem" src="images/eve.png">
+        </p>
+    </div>
+    <br>
+    <br>
+    <div>
+        <a class="EndReturn" href="Index.html" style="text-decoration: none;">Go Back</a>
+    </div>
+    <br>
+    <br>
+    <div class="Coping">
+        <hr>
+        <p>版权：https://doyounatureq.github.io/_Copyright：https://doyounatureq.github.io</p>
+    </div>
+</body>
