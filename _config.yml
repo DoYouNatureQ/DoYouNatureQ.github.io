@@ -1,11 +1,11 @@
 title: NatureQ's Blog
 description: 技术与幻想并行的自留地
 baseurl: ""
-url: "https://natureq.top/"
+url: "https://yourusername.github.io"
 theme: minima
 author:
   name: NatureQ
-  email: doyougame@qq.com
+  email: your@email.com
 
 markdown: kramdown
 highlighter: rouge
@@ -19,6 +19,6 @@ paginate: 5
 paginate_path: "/page:num"
 
 social_links:
-  github: https://github.com/doyounatureq
-  twitter/x: https://x.com/doyounatureq
-  email: doyougame@qq.com
+  github: https://github.com/yourusername
+  twitter: https://twitter.com/yourname
+  email: mailto:your@email.com
