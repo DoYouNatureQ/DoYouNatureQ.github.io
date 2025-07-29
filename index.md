@@ -1,6 +1,7 @@
 ---
 layout: home
 title: 主页
+paginate: true
 ---
 
 ## 👋 欢迎来到我的博客！
