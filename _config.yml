@@ -19,6 +19,6 @@ paginate: 5
 paginate_path: "/page:num"
 
 social_links:
-  github: https://github.com/DoYouNatureQ
-  twitter/x: https://x.com/DoYouNatureQ
+  github: https://github.com/doyounatureq
+  twitter/x: https://x.com/doyounatureq
   email: doyougame@qq.com
