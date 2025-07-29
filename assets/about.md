@@ -8,5 +8,5 @@ title: 关于我
 > “代码即诗，梦境亦真。”
 
 📮 联系方式：
-- GitHub: [NatureQ](https://github.com/natureq)
+- GitHub: [NatureQ](https://github.com/DoYouNatureQ)
 - 邮箱: 3255129181@qq.com
