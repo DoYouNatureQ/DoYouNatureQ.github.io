@@ -1,0 +1,24 @@
+title: NatureQ's Blog
+description: 技术与幻想并行的自留地
+baseurl: "" # GitHub Pages主仓库不填
+url: "https://yourusername.github.io"
+theme: minima
+author:
+  name: NatureQ
+  email: your@email.com
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+paginate: 5
+paginate_path: "/page:num"
+
+social_links:
+  github: https://github.com/yourusername
+  twitter: https://twitter.com/yourname
+  email: mailto:your@email.com
