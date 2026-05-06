@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<article class="post">
+  <header class="post-header">
+    <a class="back-home" href="{{ '/' | relative_url }}">&laquo; 返回主页</a>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">
+      {{ page.date | date: "%Y-%m-%d" }}
+    </time>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer">
+    <a class="back-home" href="{{ '/' | relative_url }}">&laquo; 返回主页</a>
+  </footer>
+</article>

@@ -3,27 +3,34 @@ layout: default
 ---
 
 <div class="home">
-  <h1>{{ page.title }}</h1>
-  {{ content }}
+  <h2 class="section-title">📝 最近文章</h2>
 
   <ul class="post-list">
     {% for post in paginator.posts %}
-      <li>
-        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        <p class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</p>
+      <li class="post-item">
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          <h3>{{ post.title }}</h3>
+          <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+        </a>
       </li>
     {% endfor %}
   </ul>
 
   {% if paginator.total_pages > 1 %}
-    <div class="pagination">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; 上一页</a>
-      {% endif %}
-      <span>第 {{ paginator.page }} / {{ paginator.total_pages }} 页</span>
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | relative_url }}">下一页 &raquo;</a>
-      {% endif %}
-    </div>
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a class="pagination-prev" href="{{ paginator.previous_page_path | relative_url }}">&laquo; 上一页</a>
+    {% else %}
+      <span class="pagination-prev disabled">&laquo; 上一页</span>
+    {% endif %}
+
+    <span class="pagination-info">第 {{ paginator.page }} / {{ paginator.total_pages }} 页</span>
+
+    {% if paginator.next_page %}
+      <a class="pagination-next" href="{{ paginator.next_page_path | relative_url }}">下一页 &raquo;</a>
+    {% else %}
+      <span class="pagination-next disabled">下一页 &raquo;</span>
+    {% endif %}
+  </div>
   {% endif %}
 </div>

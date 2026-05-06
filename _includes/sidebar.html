@@ -1,0 +1,41 @@
+<div class="sidebar-inner">
+  <div class="site-brand">
+    <h1 class="site-title">
+      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    </h1>
+    <p class="site-desc">{{ site.description }}</p>
+  </div>
+
+  <div class="author-card">
+    <div class="author-avatar">{{ site.author.name | slice: 0 }}</div>
+    <div class="author-info">
+      <h2 class="author-name">{{ site.author.name }}</h2>
+      <p class="author-bio">独立游戏开发者</p>
+    </div>
+  </div>
+
+  <p class="welcome-text">你好，我是 NatureQ，一位对文字、代码和幻觉世界充满兴趣的创造者。</p>
+
+  <ul class="author-tags">
+    <li>🎮 热衷游戏开发与 Roguelike 设计</li>
+    <li>💊 研究虚构精神药理学和赛博主题</li>
+    <li>🧠 喜欢深度创作和心理构建</li>
+  </ul>
+
+  <blockquote class="author-quote">代码即诗，梦境亦真。</blockquote>
+
+  <nav class="sidebar-nav">
+    <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>🏠 主页</a>
+    <a href="{{ '/about' | relative_url }}" {% if page.url == '/about/' %}class="active"{% endif %}>👤 关于我</a>
+  </nav>
+
+  <div class="sidebar-social">
+    <a href="https://github.com/{{ site.social_links.github | split: '/' | last }}" target="_blank" rel="noopener">GitHub</a>
+    <span class="sep">·</span>
+    <a href="mailto:doyougame@qq.com">Email</a>
+  </div>
+
+  <footer class="sidebar-footer">
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
+  </footer>
+</div>
