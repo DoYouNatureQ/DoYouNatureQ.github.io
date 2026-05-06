@@ -136,13 +136,7 @@ a:hover {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #667eea, #764ba2);
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.3rem;
-  font-weight: 700;
+  object-fit: cover;
   flex-shrink: 0;
 }
 
@@ -224,6 +218,11 @@ a:hover {
 
 .sidebar-social .sep {
   margin: 0 6px;
+}
+
+.sidebar-qq {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
 }
 
 /* Sidebar footer */

@@ -5,7 +5,7 @@ url: "https://doyounatureq.github.io"
 theme: minima
 author:
   name: NatureQ
-  email: your@email.com
+  email: doyougame@qq.com
 
 markdown: kramdown
 highlighter: rouge
@@ -21,4 +21,5 @@ paginate_path: "/page:num"
 
 social_links:
   github: https://github.com/DoYouNatureQ
-  email: mailto:your@email.com
+  bilibili: https://space.bilibili.com/361090625
+  email: mailto:doyougame@qq.com

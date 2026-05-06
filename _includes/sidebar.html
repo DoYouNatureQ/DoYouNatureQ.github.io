@@ -7,22 +7,24 @@
   </div>
 
   <div class="author-card">
-    <div class="author-avatar">{{ site.author.name | slice: 0 }}</div>
+    <img class="author-avatar" src="{{ '/assets/images/Logo-2026.png' | relative_url }}" alt="{{ site.author.name }}">
     <div class="author-info">
       <h2 class="author-name">{{ site.author.name }}</h2>
       <p class="author-bio">独立游戏开发者</p>
     </div>
   </div>
 
-  <p class="welcome-text">你好，我是 NatureQ，一位对文字、代码和幻觉世界充满兴趣的创造者。</p>
+  <p class="welcome-text">你好，我是 NatureQ，一位对游戏世界充满兴趣的创造者。</p>
 
   <ul class="author-tags">
-    <li>🎮 热衷游戏开发与 Roguelike 设计</li>
-    <li>💊 研究虚构精神药理学和赛博主题</li>
-    <li>🧠 喜欢深度创作和心理构建</li>
+    <li>热衷游戏开发</li>
+    <li>B社玩家</li>
+    <li>喜欢勒布朗詹姆斯</li>
+    <li>百合豚</li>
+    <li>屹立于大地之上</li>
   </ul>
 
-  <blockquote class="author-quote">代码即诗，梦境亦真。</blockquote>
+  <blockquote class="author-quote">我要做游戏，现在就开始。</blockquote>
 
   <nav class="sidebar-nav">
     <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>🏠 主页</a>
@@ -32,7 +34,12 @@
   <div class="sidebar-social">
     <a href="https://github.com/{{ site.social_links.github | split: '/' | last }}" target="_blank" rel="noopener">GitHub</a>
     <span class="sep">·</span>
+    <a href="https://space.bilibili.com/361090625" target="_blank" rel="noopener">B站</a>
+    <span class="sep">·</span>
     <a href="mailto:doyougame@qq.com">Email</a>
+  </div>
+  <div class="sidebar-qq">
+    QQ：1584652569 / 交流群：486895907
   </div>
 
   <footer class="sidebar-footer">
