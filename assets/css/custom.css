@@ -86,21 +86,18 @@ a:hover {
   min-width: 0;
   padding: 48px 20px;
   max-width: 900px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .post,
 .home,
 .page {
   max-width: 680px;
-  width: 100%;
+  margin: 0 auto;
 }
 
 .page-content {
   max-width: 680px;
-  width: 100%;
+  margin: 0 auto;
 }
 
 /* ===== Sidebar ===== */
