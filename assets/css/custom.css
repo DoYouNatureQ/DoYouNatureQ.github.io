@@ -84,8 +84,23 @@ a:hover {
   width: 70%;
   flex: 1;
   min-width: 0;
-  padding: 48px 56px;
+  padding: 48px 20px;
   max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post,
+.home,
+.page {
+  max-width: 680px;
+  width: 100%;
+}
+
+.page-content {
+  max-width: 680px;
+  width: 100%;
 }
 
 /* ===== Sidebar ===== */
@@ -445,6 +460,19 @@ a:hover {
     flex-direction: column;
   }
 
+  .content {
+    order: -1;
+    width: 100%;
+    padding: 32px 20px;
+  }
+
+  .post,
+  .home,
+  .page,
+  .page-content {
+    max-width: 100%;
+  }
+
   .sidebar {
     width: 100%;
     max-width: 100%;
@@ -458,11 +486,6 @@ a:hover {
   .sidebar-inner {
     padding: 28px 20px;
     gap: 16px;
-  }
-
-  .content {
-    width: 100%;
-    padding: 32px 20px;
   }
 
   .post-title {
