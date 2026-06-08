@@ -5,8 +5,7 @@ date: 2026-06-02
 last_modified_at: 2026-06-08
 ---
 
-[JMComic-PDF-GUI](https://github.com/DoYouNatureQ/JMComic-PDF-GUI) - 禁漫天堂漫画下载 & PDF 合成图形化工具，
-基于 [JMComic-Crawler-Python](https://github.com/hect0x7/JMComic-Crawler-Python) 二次开发，在原有下载功能基础上，增加了**图形化界面 (GUI)**、**搜索ID下载**、**PDF 自动合成**、**账号登录下载**等实用功能。
+[JMComic-PDF-GUI](https://github.com/DoYouNatureQ/JMComic-PDF-GUI) - 基于 [JMComic-Crawler-Python](https://github.com/hect0x7/JMComic-Crawler-Python) 二次开发，在原有下载功能基础上，增加了**图形化界面 (GUI)**、**搜索ID下载**、**PDF 自动合成**、**账号登录下载**等实用功能。
 
 ## 主要功能
 
@@ -17,6 +16,8 @@ last_modified_at: 2026-06-08
 - **漫画信息保存**：自动提取并保存本子的标题、作者、标签、简介为 TXT 文件
 - **命令行模式**：也支持通过命令行快速下载（继承自原项目）
 - **独立的EXE文件**：双击EXE文件即可使用
+
+---
 
 ## 安装教程,或者[直接下载JM漫画下载器.exe](https://github.com/DoYouNatureQ/JMComic-PDF-GUI/releases)可跳过此步骤
 
