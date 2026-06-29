@@ -164,31 +164,32 @@ a:hover {
 
 /* Follow button */
 .follow-btn {
-  display: block;
-  text-align: center;
-  padding: 10px 0;
-  background: #2da44e;
-  color: #fff;
-  border-radius: 8px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  transition: background 0.2s;
-  line-height: 1.5;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  padding: 12px 0 !important;
+  background: #2da44e !important;
+  color: #fff !important;
+  border-radius: 8px !important;
+  font-size: 0.95rem !important;
+  font-weight: 700 !important;
+  transition: background 0.2s !important;
+  text-decoration: none !important;
 }
 
 .follow-btn:hover {
-  background: #2c974b;
-  color: #fff;
+  background: #2c974b !important;
+  color: #fff !important;
 }
 
 @media (prefers-color-scheme: dark) {
   .follow-btn {
-    background: #2ea043;
-    border: 1px solid rgba(240, 246, 252, 0.1);
+    background: #2ea043 !important;
   }
 
   .follow-btn:hover {
-    background: #3fb950;
+    background: #3fb950 !important;
   }
 }
 
