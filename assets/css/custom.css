@@ -162,6 +162,36 @@ a:hover {
   color: var(--text-secondary);
 }
 
+/* Follow button */
+.follow-btn {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  background: #24292f;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background 0.2s, opacity 0.2s;
+}
+
+.follow-btn:hover {
+  background: #1b1f23;
+  color: #fff;
+  opacity: 0.9;
+}
+
+@media (prefers-color-scheme: dark) {
+  .follow-btn {
+    background: #30363d;
+    border: 1px solid var(--border);
+  }
+
+  .follow-btn:hover {
+    background: #484f58;
+  }
+}
+
 .welcome-text {
   font-size: 0.9rem;
   color: var(--text-secondary);
