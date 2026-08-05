@@ -614,7 +614,9 @@ a:hover {
   .content {
     order: -1;
     width: 100%;
-    padding: 32px 20px;
+    padding: 32px 24px;
+    padding-left: max(24px, env(safe-area-inset-left));
+    padding-right: max(24px, env(safe-area-inset-right));
   }
 
   .post,
@@ -640,7 +642,9 @@ a:hover {
   }
 
   .sidebar-inner {
-    padding: 28px 20px;
+    padding: 28px 24px;
+    padding-left: max(24px, env(safe-area-inset-left));
+    padding-right: max(24px, env(safe-area-inset-right));
     gap: 16px;
   }
 
