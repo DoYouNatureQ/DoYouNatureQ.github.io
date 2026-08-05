@@ -209,8 +209,7 @@ a:hover {
   display: block;
   width: 100%;
   max-width: 100%;
-  height: auto;
-  aspect-ratio: 663 / 340;
+  height: 160px;
 }
 
 .author-tags {
