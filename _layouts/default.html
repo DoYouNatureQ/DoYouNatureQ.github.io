@@ -18,5 +18,19 @@
       {{ content }}
     </main>
   </div>
+  <script>
+    (function () {
+      var btnFirst = document.getElementById('gh-btn-first');
+      var btnSecond = document.getElementById('gh-btn-second');
+      var first = document.querySelector('.gh-half-first');
+      var second = document.querySelector('.gh-half-second');
+      function show(half) {
+        first.classList.toggle('is-hidden', half !== 'first');
+        second.classList.toggle('is-hidden', half !== 'second');
+      }
+      btnFirst.addEventListener('click', function () { show('first'); });
+      btnSecond.addEventListener('click', function () { show('second'); });
+    })();
+  </script>
 </body>
 </html>
