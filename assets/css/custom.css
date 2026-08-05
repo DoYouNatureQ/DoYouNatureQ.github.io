@@ -82,10 +82,9 @@ a:hover {
 
 .content {
   width: 70%;
-  flex: 1;
+  flex: 1 1 auto;
   min-width: 0;
   padding: 48px 20px;
-  max-width: 900px;
 }
 
 .post,
