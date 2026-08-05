@@ -254,6 +254,12 @@ a:hover {
   margin-left: -104.63%;
 }
 
+.gh-half-full {
+  display: none;
+  width: 104.25%;
+  margin-left: -4.25%;
+}
+
 .gh-half.is-hidden {
   display: none;
 }
@@ -556,6 +562,23 @@ a:hover {
 @media (max-width: 768px) {
   .layout {
     flex-direction: column;
+  }
+
+  .gh-btn {
+    display: none;
+  }
+
+  .gh-half-first,
+  .gh-half-second {
+    display: none;
+  }
+
+  .gh-half-full {
+    display: block;
+  }
+
+  .gh-graph {
+    aspect-ratio: 636 / 104;
   }
 
   .content {
