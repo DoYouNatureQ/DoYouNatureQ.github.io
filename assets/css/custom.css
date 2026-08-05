@@ -327,6 +327,7 @@ a:hover {
 
 .sidebar-nav a {
   display: block;
+  text-align: center;
   padding: 8px 14px;
   border-radius: 6px;
   font-size: 0.95rem;
