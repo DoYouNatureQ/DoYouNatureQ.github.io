@@ -201,17 +201,16 @@ a:hover {
 
 /* GitHub contribution graph */
 .gh-graph {
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 10px;
-  background: var(--card-bg);
-  box-shadow: var(--shadow);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .gh-graph img {
   display: block;
   width: 100%;
+  max-width: 100%;
   height: auto;
+  aspect-ratio: 663 / 104;
 }
 
 .author-tags {
