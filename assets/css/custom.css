@@ -114,7 +114,7 @@ a:hover {
 }
 
 .site-title {
-  font-size: 1.5rem;
+  font-size: 2.25rem;
   font-weight: 700;
 }
 
@@ -336,7 +336,7 @@ a:hover {
 
 .sidebar-nav a:hover,
 .sidebar-nav a.active {
-  background: var(--tag-bg);
+  background: #fff;
   color: var(--link);
 }
 
@@ -376,7 +376,7 @@ a:hover {
 
 .section-title {
   position: relative;
-  font-size: 1.3rem;
+  font-size: 1.95rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 24px;
@@ -614,9 +614,9 @@ a:hover {
   .content {
     order: -1;
     width: 100%;
-    padding: 32px 24px;
-    padding-left: max(24px, env(safe-area-inset-left));
-    padding-right: max(24px, env(safe-area-inset-right));
+    padding: 32px 28px;
+    padding-left: max(28px, env(safe-area-inset-left));
+    padding-right: max(28px, env(safe-area-inset-right));
   }
 
   .post,
@@ -642,9 +642,9 @@ a:hover {
   }
 
   .sidebar-inner {
-    padding: 28px 24px;
-    padding-left: max(24px, env(safe-area-inset-left));
-    padding-right: max(24px, env(safe-area-inset-right));
+    padding: 28px 28px;
+    padding-left: max(28px, env(safe-area-inset-left));
+    padding-right: max(28px, env(safe-area-inset-right));
     gap: 16px;
   }
 
