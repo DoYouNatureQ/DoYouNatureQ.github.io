@@ -1,0 +1,41 @@
+# 首页「置顶项目」展示列表（类似 GitHub 的 Pinned）
+# 修改并推送到 GitHub 后，网站即自动更新。
+#
+# 每一项可用字段：
+#   repo:        必填，GitHub 仓库全名（owner/仓库名）
+#   title:       可选，卡片显示的名称（默认显示仓库名）
+#   url:         可选，点击卡片跳转的链接（默认跳转到 GitHub 仓库）
+#   description: 可选，卡片简介
+#   language:    可选，主要语言
+#   color:       可选，语言圆点的颜色
+#   stars:       可选，静态显示的 Star 数
+#   fork:        可选，填 true 时显示 Fork 图标
+#   forks:       可选，静态显示的 Fork 数
+#
+# 访客打开页面时，简介 / 语言 / Star / Fork 数会自动从 GitHub API
+# 同步为最新值（缓存 1 小时），无需手动维护；
+# 下面填写的静态值仅作为 API 暂时不可用时的兜底显示。
+
+- repo: DoYouNatureQ/WinTips
+  description: "简洁的 Win11 键盘状态提示 / A Simple Win11 Keyboard Overlay"
+  language: C#
+  color: "#178600"
+  stars: 4
+
+- repo: DoYouNatureQ/DeepSeek-Harness-Desktop
+  description: "DeepSeek Harness Desktop"
+  language: C#
+  color: "#178600"
+  stars: 1
+
+- repo: DoYouNatureQ/JMComic-PDF-GUI
+  description: "禁漫天堂漫画下载器，登录获取收藏漫画，一键下载&转PDF"
+  language: Python
+  color: "#3572A5"
+  stars: 5
+  fork: true
+  forks: 0
+
+- repo: DoYouNatureQ/BaseNodeEditor
+  description: "Node editor based on Unity"
+  stars: 2
