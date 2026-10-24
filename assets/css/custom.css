@@ -486,25 +486,28 @@ a:hover {
 /* ===== Pinned ===== */
 
 .pinned-section {
-  margin-bottom: 44px;
+  margin-bottom: 36px;
 }
 
 .pinned-title {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 8px;
+  gap: 6px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 12px;
 }
 
 .pinned-title-icon {
   color: var(--text-secondary);
+  flex-shrink: 0;
 }
 
 .pinned-grid {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
+  gap: 12px;
 }
 
 .pinned-card {
@@ -526,9 +529,9 @@ a:hover {
 .pinned-card-link {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
   height: 100%;
-  padding: 16px;
+  padding: 12px 14px;
   color: var(--text);
 }
 
@@ -547,7 +550,7 @@ a:hover {
 .pinned-repo-name {
   color: var(--link);
   font-weight: 600;
-  font-size: 0.98rem;
+  font-size: 0.9rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -559,7 +562,7 @@ a:hover {
 
 .pinned-repo-desc {
   flex: 1 0 auto;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   line-height: 1.6;
   color: var(--text-secondary);
   display: -webkit-box;
@@ -572,8 +575,8 @@ a:hover {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 6px 14px;
-  font-size: 0.8rem;
+  gap: 4px 12px;
+  font-size: 0.75rem;
   color: var(--text-secondary);
   margin-top: auto;
 }
@@ -586,8 +589,8 @@ a:hover {
 }
 
 .pinned-lang-dot {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   background: #8b949e;
   flex-shrink: 0;

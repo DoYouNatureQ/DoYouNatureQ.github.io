@@ -1,4 +1,4 @@
-# 首页「置顶项目」展示列表（类似 GitHub 的 Pinned）
+# 首页「置顶项目」展示列表（与 GitHub 主页的 Pinned 保持一致）
 # 修改并推送到 GitHub 后，网站即自动更新。
 #
 # 每一项可用字段：
@@ -21,12 +21,6 @@
   language: C#
   color: "#178600"
   stars: 4
-
-- repo: DoYouNatureQ/DeepSeek-Harness-Desktop
-  description: "DeepSeek Harness Desktop"
-  language: C#
-  color: "#178600"
-  stars: 1
 
 - repo: DoYouNatureQ/JMComic-PDF-GUI
   description: "禁漫天堂漫画下载器，登录获取收藏漫画，一键下载&转PDF"
