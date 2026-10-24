@@ -1,3 +1,9 @@
+---
+layout: post
+title: "DeepSeek Harness Desktop"
+date: 2026-09-14
+---
+
 # [DeepSeek Harness Desktop](https://github.com/DoYouNatureQ/DeepSeek-Harness-Desktop)
 
 基于 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)(`dsh`)的原生 Windows 桌面客户端。
