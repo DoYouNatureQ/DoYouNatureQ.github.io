@@ -2,6 +2,7 @@
 layout: post
 title: "DeepSeek Harness Desktop"
 date: 2026-09-14
+description: "基于 DeepSeek Harness（dsh）的原生 Windows 桌面客户端，会话与配置全部使用官方 UI，增强能力以插件形式并入设置页。"
 ---
 
 # [DeepSeek Harness Desktop](https://github.com/DoYouNatureQ/DeepSeek-Harness-Desktop)

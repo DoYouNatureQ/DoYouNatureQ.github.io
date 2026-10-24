@@ -2,6 +2,7 @@
 layout: post
 title: "在Unity中使用键盘控制UI"
 date: 2021-01-09
+description: "在Unity中使用键盘控制UI的实现思路与效果演示，基于 Navigation 与 EventSystem。"
 ---
 
 效果预览
